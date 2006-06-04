@@ -1,12 +1,12 @@
 Summary:	Alternate ruleset for FreeCiv
 Summary(pl):	Alternatywny zbiór regu³ dla FreeCiva
 Name:		freeciv-zruleset
-Version:	1
+Version:	2
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games/Strategy
-Source0:	zruleset-1.tar.gz
-# Source0-md5:	c7be696f96cc9ea5b1f61d0a4664111d
+Source0:	http://nbtsc.org/~aredridel/2006/06/03/zruleset-%{version}.zip
+# Source0-md5:	f9770483c65f96aa14f1b459408e1071
 Requires:	freeciv-server
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -17,7 +17,7 @@ Alternate ruleset for FreeCiv.
 Alternatywny zbiór regu³ dla FreeCiva.
 
 %prep
-%setup -q -n zruleset-%{version}
+%setup -q -n zruleset%{version}
 
 %install
 rm -rf $RPM_BUILD_ROOT
