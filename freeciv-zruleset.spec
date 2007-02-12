@@ -1,5 +1,5 @@
 Summary:	Alternate ruleset for FreeCiv
-Summary(pl):	Alternatywny zbiÛr regu≥ dla FreeCiva
+Summary(pl.UTF-8):   Alternatywny zbi√≥r regu≈Ç dla FreeCiva
 Name:		freeciv-zruleset
 Version:	2
 Release:	1
@@ -13,8 +13,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Alternate ruleset for FreeCiv.
 
-%description -l pl
-Alternatywny zbiÛr regu≥ dla FreeCiva.
+%description -l pl.UTF-8
+Alternatywny zbi√≥r regu≈Ç dla FreeCiva.
 
 %prep
 %setup -q -n zruleset%{version}
