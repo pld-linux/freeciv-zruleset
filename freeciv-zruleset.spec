@@ -1,5 +1,5 @@
 Summary:	Alternate ruleset for FreeCiv
-Summary(pl.UTF-8):   Alternatywny zbiór reguł dla FreeCiva
+Summary(pl.UTF-8):	Alternatywny zbiór reguł dla FreeCiva
 Name:		freeciv-zruleset
 Version:	2
 Release:	1
