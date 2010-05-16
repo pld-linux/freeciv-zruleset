@@ -7,6 +7,7 @@ License:	GPL
 Group:		X11/Applications/Games/Strategy
 Source0:	http://dinhe.net/~aredridel/2007/02/19/zruleset-%{version}.zip
 # Source0-md5:	da7231f4343e11cc56e5ed1fb1d41673
+BuildRequires:	unzip
 Requires:	freeciv-server
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
